@@ -1,0 +1,70 @@
+.logo_img {
+   width: 40px;
+   height: 40px;
+}
+.logo {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   text-decoration: none;
+   color: black;
+}
+.header {
+   padding: 20px;
+   position: fixed;
+   max-width: 1300px;
+   width: 100%;
+   background-color: #fff;
+   z-index: 3;
+}
+.links {
+   display: flex;
+   gap: 70px;
+  justify-content: center;
+  
+
+
+  a {
+   box-sizing: border-box;
+font: 700 16px / 19.2px MetroSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+color: black;
+padding: 4px 12px;
+transition: 0.2s;
+text-decoration: none;
+&:focus {
+   border: 2px solid black;
+   border-radius: 8px;
+}
+  }
+}
+.nav {
+   max-width: 1300px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.playful_btn {
+   position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 14px 0px black; 
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.playful_btn:hover {
+   transform: translateY(2px); 
+ }
+ 
+ .playful_btn:active {
+   transform: translateY(6px); 
+   box-shadow: none; 
+ }
