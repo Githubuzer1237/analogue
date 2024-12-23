@@ -1,0 +1,33 @@
+.courses {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.title {
+    margin-bottom: 20px;
+}
+
+
+.courses {
+    position: relative;
+  
+    .wrapper {
+      position: relative;
+      z-index: 1;
+    }
+  
+    .rightArea {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 30%; 
+      cursor: pointer;
+      z-index: 2;
+      pointer-events: auto;
+    }
+  
+    .rightArea:hover {
+      cursor: url('/right.webp') 16 16 , auto; 
+    }
+  }
+  
