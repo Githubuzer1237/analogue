@@ -1,0 +1,152 @@
+
+  // .section {
+  //   position: relative;
+  //   margin-top: 100px;
+  //   height: 100dvh;
+  //   background: url('/academy8.jpg')  no-repeat local center/cover;
+  //   // url('https://media.istockphoto.com/id/1358013032/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D0%B8%D1%8F-%D0%B2%D0%B5%D0%B1-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8.jpg?s=612x612&w=0&k=20&c=EkO9kd386gnW7I8CNYubjBa5VTE1fElvS7warKjrReE=')
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   overflow: hidden;
+  //   transition: background-position 0.1s ease-out;
+  // }
+  
+  // .content {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   text-align: center;
+  //   color: white;
+  //   animation: fadeIn 2s ease-in-out;
+  // }
+  
+  // .heading {
+  //   font-size: 3rem;
+  //   margin-bottom: 20px;
+  //   animation: slideUp 1.5s ease-out;
+  //   @media (max-width: 600px) {
+  //     font-size: 30px;
+  //   }
+  // }
+  
+  // .description {
+  //   font-size: 1.2rem;
+  //   margin-bottom: 40px;
+  //   animation: slideUp 2s ease-out;
+  // }
+  
+
+
+  
+  // @keyframes fadeIn {
+  //   from {
+  //     opacity: 0;
+  //   }
+  //   to {
+  //     opacity: 1;
+  //   }
+  // }
+  
+  // @keyframes slideUp {
+  //   from {
+  //     transform: translateY(20px);
+  //     opacity: 0;
+  //   }
+  //   to {
+  //     transform: translateY(0);
+  //     opacity: 1;
+  //   }
+  // }
+  
+
+  // .btn {
+  //  padding: 10px 40px;
+  //  scale: 1.1;
+  //  background-color: transparent;
+  //  color: white;
+  //  border: 3px solid white;
+  //  border-radius: 10px;
+  // transition: 0.4s;
+  // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  // font-weight: bold;
+  // font-size: 18px;
+  // margin-top: clamp(0.9375rem, -4.8438rem + 18.5vw, 12.5rem) ;
+  //  &:hover {
+  //   background-color: white;
+  //   color: black;
+  //  }
+  // }
+  .section {
+    position: relative;
+    margin-top: 100px;
+    height: 100vh;
+    background: url('/academy8.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .text {
+    margin-bottom: 20px;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .particle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .btn {
+    padding: 10px 40px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    transition: 0.4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+  

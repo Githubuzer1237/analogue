@@ -47,8 +47,10 @@ const App = () => {
                 path="*"
                 element={<NotFoundPage />}
               />
-            </Routes>
 
+
+
+            </Routes>
             <Footer />
          
 
